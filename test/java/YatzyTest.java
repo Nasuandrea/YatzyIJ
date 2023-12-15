@@ -1,11 +1,16 @@
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import org.example.Yatzy;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 
 public class YatzyTest {
-
-    @Test
+        @Test
+    @Tag("chance")
+    @DisplayName("The player stores the sum of all dice, no matter what they read")
     public void chance_scores_sum_of_all_dice() {
         int expected = 15;
         int actual = Yatzy.chance(2,3,4,5,1);
