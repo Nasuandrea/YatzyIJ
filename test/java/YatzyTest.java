@@ -102,11 +102,13 @@ public class YatzyTest {
     }
 
     @Test
-    public void three_of_a_kind() 
+    @Tag("threeOfAKind")
+    @DisplayName("verifica si hay al menos tres dados con el mismo valor y devuelve la puntuación correspondiente")
+    public void threeOfAKind()
     {
-        assertEquals(9, Yatzy.three_of_a_kind(3,3,3,4,5));
-        assertEquals(15, Yatzy.three_of_a_kind(5,3,5,4,5));
-        assertEquals(9, Yatzy.three_of_a_kind(3,3,3,3,5));
+        assertEquals(9, Yatzy.threeOfAKind(3,3,3,4,5));
+        assertEquals(15, Yatzy.threeOfAKind(5,3,5,4,5));
+        assertEquals(9, Yatzy.threeOfAKind(3,3,3,3,5));
     }
 
     @Test
