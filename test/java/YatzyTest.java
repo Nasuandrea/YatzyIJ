@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class YatzyTest {
-        @Test
+    @Test
     @Tag("chance")
     @DisplayName("The player stores the sum of all dice, no matter what they read")
     public void chance_scores_sum_of_all_dice() {
@@ -18,7 +18,10 @@ public class YatzyTest {
         assertEquals(16, Yatzy.chance(3,3,4,5,1));
     }
 
-    @Test public void yatzy_scores_50() {
+    @Test
+    @Tag("yatzy")
+    @DisplayName("verifica si hay un Yatzy en el conjunto de dados proporcionados y devuelve la puntuación correspondiente")
+    public void yatzy_scores_50() {
         int expected = 50;
         int actual = Yatzy.yatzy(4,4,4,4,4);
         assertEquals(expected, actual);
