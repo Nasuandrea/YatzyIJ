@@ -85,7 +85,7 @@ public class Main {
         int i;
         for (i = 0; i < dice.length; i++)
             if (dice[i] == 5)
-                s = s + 5;
+                    s = s + 5;
         return s;
     }
 

@@ -66,6 +66,8 @@ public class YatzyTest {
     }
 
     @Test
+    @Tag("fives")
+    @DisplayName("cuenta cuántas veces aparece el número 5 en los dados y devuelve la suma multiplicados por 5")
     public void fives() {
         assertEquals(10, new Yatzy(4,4,4,5,5).fives());
         assertEquals(15, new Yatzy(4,4,5,5,5).fives());
