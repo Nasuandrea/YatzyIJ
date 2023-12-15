@@ -91,11 +91,15 @@ public class Main {
 
     public int sixes()
     {
-        int sum = 0;
-        for (int at = 0; at < dice.length; at++)
-            if (dice[at] == 6)
-                sum = sum + 6;
-        return sum;
+        int suma = 0;
+
+        for (int valorDado : dice) {
+            if (valorDado == 6) {
+                suma += 6;
+            }
+        }
+
+        return suma;
     }
 
     public static int score_pair(int d1, int d2, int d3, int d4, int d5)

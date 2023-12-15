@@ -75,6 +75,8 @@ public class YatzyTest {
     }
 
     @Test
+    @Tag("sixes")
+    @DisplayName("cuenta cuántas veces aparece el número 6 en los dados y devuelve la suma multiplicados por 6")
     public void sixes_test() {
         assertEquals(0, new Yatzy(4,4,4,5,5).sixes());
         assertEquals(6, new Yatzy(4,4,6,5,5).sixes());
