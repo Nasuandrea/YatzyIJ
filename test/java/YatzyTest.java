@@ -5,7 +5,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
 
 public class YatzyTest {
     @Test
@@ -121,6 +120,8 @@ public class YatzyTest {
     }
 
     @Test
+    @Tag("smallStraight")
+    @DisplayName("verifica si se tiene una escalera pequeña (una secuencia de cinco dados consecutivos del 1 al 5) y devuelve la puntuación correspondiente")
     public void smallStraight() {
         assertEquals(15, Yatzy.smallStraight(1,2,3,4,5));
         assertEquals(15, Yatzy.smallStraight(2,3,4,5,1));
