@@ -102,18 +102,19 @@ public class Main {
         return suma;
     }
 
-    public static int score_pair(int d1, int d2, int d3, int d4, int d5)
-    {
+    public static int scorePair(int... dados) {
         int[] counts = new int[6];
-        counts[d1-1]++;
-        counts[d2-1]++;
-        counts[d3-1]++;
-        counts[d4-1]++;
-        counts[d5-1]++;
-        int at;
-        for (at = 0; at != 6; at++)
-            if (counts[6-at-1] >= 2)
-                return (6-at)*2;
+
+        for (int dado : dados) {
+            counts[dado - 1]++;
+        }
+
+        for (int i = 5; i >= 0; i--) {
+            if (counts[i] >= 2) {
+                return (i + 1) * 2;
+            }
+        }
+
         return 0;
     }
 

@@ -77,20 +77,24 @@ public class YatzyTest {
     @Test
     @Tag("sixes")
     @DisplayName("cuenta cuántas veces aparece el número 6 en los dados y devuelve la suma multiplicados por 6")
-    public void sixes_test() {
+    public void sixesTest() {
         assertEquals(0, new Yatzy(4,4,4,5,5).sixes());
         assertEquals(6, new Yatzy(4,4,6,5,5).sixes());
         assertEquals(18, new Yatzy(6,5,6,6,5).sixes());
     }
 
     @Test
-    public void one_pair() {
-        assertEquals(6, Yatzy.score_pair(3,4,3,5,6));
-        assertEquals(10, Yatzy.score_pair(5,3,3,3,5));
-        assertEquals(12, Yatzy.score_pair(5,3,6,6,5));
+    @Tag("scorePair")
+    @DisplayName("calcula la puntuación asociada con la existencia de al menos un par de dados con el mismo valor. " +
+            "La puntuación es el doble del valor del dado en el par más alto encontrado, o 0 si no hay pares")
+    public void onePair() {
+        assertEquals(6, Yatzy.scorePair(3,4,3,5,6));
+        assertEquals(10, Yatzy.scorePair(5,3,3,3,5));
+        assertEquals(12, Yatzy.scorePair(5,3,6,6,5));
     }
 
     @Test
+    @DisplayName("")
     public void two_Pair() {
         assertEquals(16, Yatzy.two_pair(3,3,5,4,5));
         assertEquals(16, Yatzy.two_pair(3,3,5,5,5));
