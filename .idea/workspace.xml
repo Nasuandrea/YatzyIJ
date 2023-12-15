@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion scorePais y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables y simplificación con foreach">
+    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion twoPair y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminacion variable at, uso de un bucle descendente y operador ternario en return">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/YatzyTest.java" afterDir="false" />
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702639611073</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor(Main , YatzyTest): refactorización funcion twoPair y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminacion variable at, uso de un bucle descendente y operador ternario en return">
+      <created>1702640166248</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702640166248</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,6 +156,7 @@
     <MESSAGE value="refactor(Main , YatzyTest): introduccion de array de dados y refactorización funcion fives y caso test correspondiente&#10;cambio de parámetros por var args y simplificación con bucle for" />
     <MESSAGE value="refactor(Main , YatzyTest): introduccion de array de dados y refactorización funcion sixes y caso test correspondiente&#10;cambio de parámetros por var args y simplificación con bucle for" />
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion scorePais y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables y simplificación con foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion scorePais y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables y simplificación con foreach" />
+    <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion twoPair y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminacion variable at, uso de un bucle descendente y operador ternario en return" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion twoPair y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminacion variable at, uso de un bucle descendente y operador ternario en return" />
   </component>
 </project>

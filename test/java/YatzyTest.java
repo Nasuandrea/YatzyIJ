@@ -110,10 +110,12 @@ public class YatzyTest {
     }
 
     @Test
-    public void four_of_a_knd() {
-        assertEquals(12, Yatzy.four_of_a_kind(3,3,3,3,5));
-        assertEquals(20, Yatzy.four_of_a_kind(5,5,5,4,5));
-        assertEquals(9, Yatzy.three_of_a_kind(3,3,3,3,3));
+    @Tag("fourOfAKind")
+    @DisplayName("verifica si hay al menos cuatro dados con el mismo valor y devuelve la puntuación correspondiente")
+    public void fourOfAKind() {
+        assertEquals(12, Yatzy.fourOfAKind(3,3,3,3,5));
+        assertEquals(20, Yatzy.fourOfAKind(5,5,5,4,5));
+        assertEquals(9, Yatzy.fourOfAKind(3,3,3,3,3));
     }
 
     @Test
