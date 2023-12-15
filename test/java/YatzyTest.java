@@ -11,7 +11,7 @@ public class YatzyTest {
     @Test
     @Tag("chance")
     @DisplayName("The player stores the sum of all dice, no matter what they read")
-    public void chance_scores_sum_of_all_dice() {
+    public void chanceScoresSumOfAllDice() {
         int expected = 15;
         int actual = Yatzy.chance(2,3,4,5,1);
         assertEquals(expected, actual);
@@ -21,7 +21,7 @@ public class YatzyTest {
     @Test
     @Tag("yatzy")
     @DisplayName("verifica si hay un Yatzy en el conjunto de dados proporcionados y devuelve la puntuación correspondiente")
-    public void yatzy_scores_50() {
+    public void yatzyScores50() {
         int expected = 50;
         int actual = Yatzy.yatzy(4,4,4,4,4);
         assertEquals(expected, actual);
@@ -32,7 +32,7 @@ public class YatzyTest {
     @Test
     @Tag("ones")
     @DisplayName("cuenta el número de unos y devuelve esa cantidad")
-    public void test_1s() {
+    public void testOnes() {
         assertTrue(Yatzy.ones(1,2,3,4,5) == 1);
         assertEquals(2, Yatzy.ones(1,2,1,4,5));
         assertEquals(0, Yatzy.ones(6,2,2,4,5));
@@ -42,7 +42,7 @@ public class YatzyTest {
     @Test
     @Tag("twos")
     @DisplayName("suma el doble de los dados que tienen el valor 2")
-    public void test_2s() {
+    public void testTwos() {
         assertEquals(4, Yatzy.twos(1,2,3,2,6));
         assertEquals(10, Yatzy.twos(2,2,2,2,2));
     }
@@ -50,13 +50,15 @@ public class YatzyTest {
     @Test
     @Tag("threes")
     @DisplayName("suma el triple de los dados que tienen el valor 3")
-    public void test_threes() {
+    public void testThrees() {
         assertEquals(6, Yatzy.threes(1,2,3,2,3));
         assertEquals(12, Yatzy.threes(2,3,3,3,3));
     }
 
     @Test
-    public void fours_test() 
+    @Tag("fours")
+    @DisplayName("cuenta cuántas veces aparece el número 4 en los dados y devuelve la suma multiplicada por 4")
+    public void foursTest()
     {
         assertEquals(12, new Yatzy(4,4,4,5,5).fours());
         assertEquals(8, new Yatzy(4,4,5,5,5).fours());

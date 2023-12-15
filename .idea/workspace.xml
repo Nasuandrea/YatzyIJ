@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion threes y caso test correspondiente&#10;cambio de parámetros por var args y simplificación con bucle for" />
+    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion ones, trhees y casos test correspondientes&#10;cambio de parámetros por var args y simplificación con bucle for">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/YatzyTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702638213685</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactor(Main , YatzyTest): refactorización funcion ones, trhees y casos test correspondientes&#10;cambio de parámetros por var args y simplificación con bucle for">
+      <created>1702638366062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702638366062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +108,7 @@
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion twos y caso test correspondiente&#10;cambio de parametros por var args y simplificación con bucle for" />
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion threes y caso test correspondiente&#10;cambio de parametros por var args y simplificación con bucle for" />
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion threes y caso test correspondiente&#10;cambio de parámetros por var args y simplificación con bucle for" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion threes y caso test correspondiente&#10;cambio de parámetros por var args y simplificación con bucle for" />
+    <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion ones, trhees y casos test correspondientes&#10;cambio de parámetros por var args y simplificación con bucle for" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion ones, trhees y casos test correspondientes&#10;cambio de parámetros por var args y simplificación con bucle for" />
   </component>
 </project>

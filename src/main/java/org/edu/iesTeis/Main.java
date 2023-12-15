@@ -59,14 +59,11 @@ public class Main {
     }
 
     protected int[] dice;
-    public Main(int d1, int d2, int d3, int d4, int _5)
-    {
+    public Main(int... diceValues) {
         dice = new int[5];
-        dice[0] = d1;
-        dice[1] = d2;
-        dice[2] = d3;
-        dice[3] = d4;
-        dice[4] = _5;
+        for (int i = 0; i < 5; i++) {
+            dice[i] = diceValues[i];
+        }
     }
 
     public int fours()
