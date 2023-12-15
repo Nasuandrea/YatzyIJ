@@ -31,7 +31,7 @@ public class YatzyTest {
 
     @Test
     @Tag("ones")
-    @DisplayName("cuenta el número de unos en el conjunto de dados proporcionado y devuelve esa cantidad")
+    @DisplayName("cuenta el número de unos y devuelve esa cantidad")
     public void test_1s() {
         assertTrue(Yatzy.ones(1,2,3,4,5) == 1);
         assertEquals(2, Yatzy.ones(1,2,1,4,5));
@@ -40,12 +40,16 @@ public class YatzyTest {
     }
 
     @Test
+    @Tag("twos")
+    @DisplayName("suma el doble de los dados que tienen el valor 2")
     public void test_2s() {
         assertEquals(4, Yatzy.twos(1,2,3,2,6));
         assertEquals(10, Yatzy.twos(2,2,2,2,2));
     }
 
     @Test
+    @Tag("threes")
+    @DisplayName("suma el triple de los dados que tienen el valor 3")
     public void test_threes() {
         assertEquals(6, Yatzy.threes(1,2,3,2,3));
         assertEquals(12, Yatzy.threes(2,3,3,3,3));

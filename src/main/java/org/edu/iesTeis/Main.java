@@ -21,36 +21,41 @@ public class Main {
     }
 
     public static int ones(int... dice) {
-        int suma = 0;
+        int contador = 0;
 
         for (int dado : dice) {
             if (dado == 1) {
-                suma++;
+                contador++;
+            }
+        }
+
+        return contador;
+    }
+
+    public static int twos(int... dados) {
+        int suma = 0;
+        int valorBuscado = 2;
+
+        for (int dado : dados) {
+            if (dado == valorBuscado) {
+                suma += valorBuscado;
             }
         }
 
         return suma;
     }
 
-    public static int twos(int d1, int d2, int d3, int d4, int d5) {
-        int sum = 0;
-        if (d1 == 2) sum += 2;
-        if (d2 == 2) sum += 2;
-        if (d3 == 2) sum += 2;
-        if (d4 == 2) sum += 2;
-        if (d5 == 2) sum += 2;
-        return sum;
-    }
+    public static int threes(int... dados) {
+        int suma = 0;
+        int valorBuscado = 3;
 
-    public static int threes(int d1, int d2, int d3, int d4, int d5) {
-        int s;
-        s = 0;
-        if (d1 == 3) s += 3;
-        if (d2 == 3) s += 3;
-        if (d3 == 3) s += 3;
-        if (d4 == 3) s += 3;
-        if (d5 == 3) s += 3;
-        return s;
+        for (int dado : dados) {
+            if (dado == valorBuscado) {
+                suma += valorBuscado;
+            }
+        }
+
+        return suma;
     }
 
     protected int[] dice;

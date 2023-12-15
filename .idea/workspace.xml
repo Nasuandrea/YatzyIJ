@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactorización caso test de la funcion yatzy">
+    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion twos y caso test correspondiente&#10;cambio de parametros por var args y simplificación con bucle for">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/YatzyTest.java" afterDir="false" />
     </list>
@@ -91,6 +92,7 @@
     <MESSAGE value="actualizacion a jUnit" />
     <MESSAGE value="refactorización funcion chance y caso test" />
     <MESSAGE value="refactorización caso test de la funcion yatzy" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactorización caso test de la funcion yatzy" />
+    <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion twos y caso test correspondiente&#10;cambio de parametros por var args y simplificación con bucle for" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion twos y caso test correspondiente&#10;cambio de parametros por var args y simplificación con bucle for" />
   </component>
 </project>
