@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion threeOfAKind y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/edu/iesTeis/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/java/YatzyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/java/YatzyTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="0f1699df-f7ab-4395-a241-10fb5fae335c" name="Changes" comment="refactor(Main , YatzyTest): refactorización funcion smallStraight y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702641568252</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactor(Main , YatzyTest): refactorización funcion smallStraight y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach">
+      <created>1702642530267</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1702642530267</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +180,7 @@
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion twoPair y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminacion variable at, uso de un bucle descendente y operador ternario en return" />
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion fourOfAKind y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación de la variable _1, uso de un foreach" />
     <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion threeOfAKind y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion threeOfAKind y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach" />
+    <MESSAGE value="refactor(Main , YatzyTest): refactorización funcion smallStraight y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(Main , YatzyTest): refactorización funcion smallStraight y caso test correspondiente&#10;cambio de parámetros por var args , nombres de variables, eliminación variable innecesaria, uso de un foreach" />
   </component>
 </project>
